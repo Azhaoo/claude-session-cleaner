@@ -1,6 +1,6 @@
 # Claude code 会话清理（Claude Session Cleaner）
 
-纯本地、跨平台（Windows / macOS / Linux）的 Claude Code 会话清理 GUI 工具。
+纯本地的 Claude Code 会话清理 GUI 工具。
 
 **核心目标**：删除指定会话后，在终端执行 `claude -r`（resume）时，被删会话从历史列表**彻底消失**；其他会话照常显示。
 
