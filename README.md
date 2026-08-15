@@ -4,7 +4,6 @@
 
 **核心目标**：删除指定会话后，在终端执行 `claude -r`（resume）时，被删会话从历史列表**彻底消失**；其他会话照常显示。
 
-![特性](#特性)
 
 ## 特性
 
@@ -55,12 +54,10 @@ python -m venv venv
 # 2. 安装依赖（仅 send2trash 与 ttkbootstrap 两个）
 #    Windows:
 venv\Scripts\python -m pip install -r requirements.txt
-#    macOS / Linux:
-venv/bin/python -m pip install -r requirements.txt
 
 # 3. 启动
 venv\Scripts\python main.py        # Windows
-venv/bin/python main.py            # macOS / Linux
+
 ```
 
 ## 使用说明
